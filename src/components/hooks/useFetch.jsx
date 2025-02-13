@@ -8,7 +8,7 @@ export function useFetch(url) {
   useEffect(() => {
     if (!url) return;
 
-    const controller = new AbortController(); // ✅ Abort request if unmounted
+    const controller = new AbortController(); 
     const fetchData = async () => {
       setIsPending(true);
       setError(null);
@@ -18,11 +18,10 @@ export function useFetch(url) {
 
         const jsonData = await res.json();
 
-        // Ensure the response structure is correct and contains the products key
         if (jsonData.products && Array.isArray(jsonData.products)) {
-          setData(jsonData.products); // Store the 'products' array
+          setData(jsonData.products); 
         } else {
-          setData([]); // Set empty array if no products found
+          setData([]); 
         }
       } catch (err) {
         if (err.name !== "AbortError") setError(err.message);
@@ -32,7 +31,7 @@ export function useFetch(url) {
     };
 
     fetchData();
-    return () => controller.abort(); // ✅ Cleanup fetch
+    return () => controller.abort(); 
   }, [url]);
 
   return { data, isPending, error };

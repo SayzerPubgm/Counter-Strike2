@@ -18,7 +18,7 @@ function TriptList() {
 
   useEffect(() => {
     if (tript) {
-      setFilteredData(tript); // Show all data initially
+      setFilteredData(tript);
     }
   }, [tript]);
 
