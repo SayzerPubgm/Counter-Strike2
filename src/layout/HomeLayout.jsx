@@ -48,8 +48,8 @@ function HomeLayout() {
             <div className="img_container">
               <img
                 className="main_img"
-                src="https:/cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react//cs2/header_ctt.png"
-                alt=""
+                src="/items/images/cs2_main.png"
+                alt="CS2 main"
               />
             </div>
             <div className="text_container">
@@ -59,7 +59,7 @@ function HomeLayout() {
               <img
                 className="text_img"
                 src="https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react//cs2/logo_cs2_header.svg"
-                alt="CS2"
+                alt="CS2 text"
               />
             </div>
           </div>
