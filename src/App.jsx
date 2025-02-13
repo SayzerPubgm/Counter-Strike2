@@ -1,10 +1,7 @@
 // styles
 import "./App.css";
 // React Router DOM
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // Pages
 import About from "./pages/About";
 import Faq from "./pages/support/Faq";
@@ -25,50 +22,43 @@ function App() {
       errorElement: <PageNotFound />,
       children: [
         // Home Page
-        { 
+        {
           index: true,
-          element: <HomeLayout /> 
+          element: <HomeLayout />,
         },
         // About Page
-        { 
-          path: "about", 
-          element: <About /> 
+        {
+          path: "about",
+          element: <About />,
         },
         // Link read more
-        { 
+        {
           path: "readmore/:id",
-          element:<ReadMore />
+          element: <ReadMore />,
         },
         // Contact and Nesteds
         {
-          path: "contact", 
-          element: <ContactLayout/>,
+          path: "contact",
+          element: <ContactLayout />,
           children: [
             {
               path: "faq",
               element: <Faq />,
             },
             {
-              path:"form",
+              path: "form",
               element: <Form />,
-            }
-          ]
-        }
-      ] 
-    }
+            },
+          ],
+        },
+      ],
+    },
   ]);
   return (
-    
     <div className="App">
-
       <RouterProvider router={routes} />
-
-      
     </div>
-
-    
   );
-  
 }
 
 export default App;

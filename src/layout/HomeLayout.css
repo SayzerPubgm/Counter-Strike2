@@ -88,21 +88,19 @@ body{
 }
 
 .img_container {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+.main_img {
     width: auto;
     z-index: 1;
     height: 710px;
     margin-right: 160px;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-self: flex-end;
     animation-name: box-mover;
     animation-duration: 1.3s;
-}
-
-.main_img {
-    width: auto;
-    height: 100%;
     
 }
 
