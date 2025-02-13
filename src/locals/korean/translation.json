@@ -1,0 +1,27 @@
+{
+    "play": "시작하세요",
+    "game": "게임",
+    "news": "뉴스",
+    "support": "지원하다",
+    "language": "언어 선택",
+    "home_text": "소개합니다",
+    "music": "음악",
+    "update": "업데이트",
+    "help": "어떻게 도와드릴까요?",
+  "faq": "FAQ",
+  "form": "보고서",
+  "sendyourquestion": "질문을 보내세요",
+  "youremail": "이메일",
+  "message": "메시지",
+  "send": "보내다",
+  "readmore": "상세히",
+  "loading": "로딩",
+    "secondFloorTitle": "Counter-Strike 2 새로운 시대가 시작되었습니다!",
+    "secondFloorDesc": "Counter-Strike 2는 시리즈 역사상 가장 큰 기술적 도약으로, 앞으로도 오랫동안 새로운 기능과 콘텐츠를 제공합니다. Counter-Strike 2는 CS:GO의 무료 업그레이드입니다. 그러니 장비를 준비하고, 실력을 갈고닦으며, 다가올 변화에 대비하세요! 카운터-스트라이크 2의 새로운 기능을 알아보려면 계속 읽어보세요.",
+    "thirdFloorTitle": "Counter-Strike 2 새로운 시대가 시작되었습니다!",
+    "thirdFloorDesc": "서브-틱 구조는  Counter-Strike 2의 핵심입니다. 이전에는 서버가 맵의 변화를 특정 간격(‘틱’)으로만 계산했습니다. 그러나 새로운 아키텍처 덕분에 Counter-Strike 2의 서버는 플레이어가 움직이거나, 발사하거나, 수류탄을 던지는 순간을 즉시 감지할 수 있습니다. 그 결과, 움직임과 사격이 더욱 반응성이 좋아졌으며, 수류탄은 항상 동일한 궤적으로 날아갑니다.",
+    "fourthFloorTitle": "Counter-Strike 2의 시간이 왔다!",
+    "fourthFloorDesc": "Counter-Strike 2 커뮤니티는 몇 달 동안 제한된 CS2 테스트에 참여하여 피드백을 통해 게임을 개선하는 데 도움을 주었습니다. 이미 실력을 갈고닦으며 새로운 높이에 도달하고 있는 수백만 명의 플레이어와 함께하세요. 카운터-스트라이크 2에 오신 것을 환영합니다.",  
+    "footer": "Counter-Strike, Counter-Strike 2, CS:GO 및 각각의 로고는 Valve Corporation의 상표 및/또는 등록 상표입니다. © 2023 Valve Corporation, 모든 권리 보유."
+
+}

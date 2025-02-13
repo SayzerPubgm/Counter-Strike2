@@ -1,0 +1,75 @@
+.trip-list {
+  position: relative;
+  max-width: 1440px;
+  margin: 60px auto;
+}
+
+.trip-list ul {
+  padding: 0;
+  display: grid;
+  width: 90%;
+  gap: 20px; /* space between the cards */
+}
+
+.trip-list li {
+  background-color: #15171b;
+  border-bottom: 1px solid #646566;
+  box-sizing: border-box;
+  padding: 10px;
+  list-style-type: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.trip-list li:hover {
+  transform: scale(1.1);
+}
+
+.trip-list img {
+  float: left;
+  width: 30%;
+}
+
+.trip_desc {
+  overflow: hidden;
+  height: 6rem;
+}
+
+.details {
+  color: #8f9193;
+  margin: 10px;
+  width: 65%;
+  display: inline-block;
+}
+
+.details h2 {
+  margin: 0;
+  color: white;
+}
+
+.details h4 {
+  font-weight: 300;
+  margin: 0;
+}
+
+.filters{
+  z-index: 1;
+  position: absolute;
+  top: -5rem;
+  left: 0;
+  padding: 10px;
+}
+
+.filters button {
+  font-size: 18px;
+  padding: 20px 30px;
+  background-color: #222222;
+  color: white;
+}
+
+.filters button:active {
+  background-color: #313131;
+}
+
+.filters button:focus {
+  outline: none;
+}
